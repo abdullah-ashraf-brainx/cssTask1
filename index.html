@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <title>Job Application</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header></header>
+        <h1 style="text-align: center; margin-top: 0%;">Job Application</h1>
+        <div>
+            <div>
+                <form>
+                    <h3 style="color: brown;">Personal Information</h3>
+                    <!-- Name -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="name">Name</label><br>
+                        </div>
+                        <div class="col-75" style="display: flex; justify-content: space-between;">
+                            <div style="width: 47%;">
+                                <input type="text" id="fname" name="fname"><br>
+                                <small >First Name</small>
+                            </div>
+                            <div style="width: 47%;">
+                                <input type="text" id="lname" name="lname"><br>
+                                <small class="w-100">Last Name</small>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Email -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input style="width: 75%;" type="text" id="email" name="email" placeholder="user@example.com">
+                        </div>
+                    </div>
+                    <!-- Education -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="edu">Education</label>
+                        </div>
+                        <div class="col-75">
+                            <select style="width: 50%;" id="edu" name="edu">
+                                <option value="" selected disabled hidden>Please Choose</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="fiat">Fiat</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Resume -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="resume">Resume</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="file" id="resume" name="resume">
+                        </div>
+                    </div>
+                    <!-- Address -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="address">Address</label>
+                        </div>
+                        <div class="col-75" style="display: flex; flex-direction: column;">
+                            <input style="width: 100%;" type="text" id="address1" name="address1">
+                            <small style="margin: auto;">Address 1</small>
+                            <input style="width: 100%;" type="text" id="address2" name="address2">
+                            <small style="margin: auto;">Address 2</small>
+                            <select id="country" name="country">
+                                <option value="" selected disabled hidden>Select a Country</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="fiat">Fiat</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <small style="margin: auto;">Country</small>
+                            <div style="display: flex; margin-right: 10px; justify-content: space-between;">
+                                <div style="width: 50%;">
+                                    <input type="text" id="city" name="city"><br>
+                                    <small>City</small>
+                                </div>
+                                <div style="width: 15%;">
+                                    <input type="text" id="state" name="state"><br>
+                                    <small>State</small>
+                                </div>
+                                <div style="width: 30%;">
+                                    <input type="text" id="zip" name="zip"><br>
+                                    <small>Zip Code</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Phone Number -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="address">Phone Number</label>
+                        </div>
+                        <div class="col-75" style="display: flex; justify-content: space-between;">
+                                <div style="width: 10%;">
+                                    <input type="text" id="city" name="city"><br>
+                                </div>
+                                <div style="width: 89%;">
+                                    <input type="text" id="state" name="state"><br>
+                                </div>
+                        </div>
+                    </div>
+                    <!-- Hobbies -->
+                    <div class="row" style="margin-top: 5px;">
+                            <label for="address">What are your hobbies?</label>
+                            <input type="text" id="state" name="state">
+                    </div>
+                    <!-- section 2 -->
+                    <h3 style="color: brown; margin-top: 0;">Previous/Curent Employment Details</h3>
+                    <!-- Email -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Company Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </div>
+                    <!-- Job Title -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Job Title</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </div>
+                    <!-- How long -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">How long were you here?</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </div>
+                    <!-- Reference #1 -->
+                    <h3 style="color: brown; margin-top: 10px;">Reference #1</h3>
+                    <!-- Name -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </div>
+                    <!-- Phone -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Phone</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </div>
+                    <!-- Reference #2 -->
+                    <h3 style="color: brown; margin-top: 10px;">Reference #2</h3>
+                    <!-- Name -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </div>
+                    <!-- Phone -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Phone</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </div>
+                    <!-- Submit Button -->
+                    <div style="text-align: center; margin-top: 15px;">
+                        <input type="button" style="background-color: brown; color: white; width: 20%; height: 35px;" value="Apply"> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
